@@ -1,6 +1,6 @@
 {
   "name": "every-layout-stencil",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "> TODO: description",
   "author": "Michał Śnieżyński <michal@sniezynski.com>",
   "homepage": "https://github.com/msniezynski/every-layout-stencil#readme",
@@ -31,7 +31,7 @@
     "access": "public"
   },
   "dependencies": {
-    "every-layout-stencil-library": "^0.1.1"
+    "every-layout-stencil-library": "^0.1.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.74",
