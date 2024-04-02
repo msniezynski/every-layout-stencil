@@ -9,5 +9,5 @@
  */
 
 export { format } from './utils/utils';
-
 export { JSX } from './components';
+export { defineCustomElements } from '../loader';

@@ -1,6 +1,6 @@
 {
   "name": "every-layout-stencil-library",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -16,6 +16,9 @@
     "./my-component": {
       "import": "./dist/components/my-component.js",
       "types": "./dist/components/my-component.d.ts"
+    },
+    "./loader-esm": {
+      "import": "./dist/esm/loader.js"
     }
   },
   "repository": {

@@ -3,7 +3,7 @@
   "npmClient": "npm",
   "command": {
     "publish": {
-      "allowBranch": ["main", "react-generation"],
+      "allowBranch": ["main"],
       "ignoreChanges": ["*.md", "build.js", "config.json"],
       "message": "(auto) Lerna publish",
       "registry": "https://registry.npmjs.org/"

@@ -11,12 +11,12 @@ export const config: Config = {
     // React target
     {
       type: 'dist',
-      esmLoaderPath: '../loader',
+      // esmLoaderPath: '../loader',
     },
     reactOutputTarget({
       componentCorePackage: 'every-layout-stencil-library',
       proxiesFile: '../react-library/lib/components/stencil-generated/index.ts',
-      includeDefineCustomElements: true,
+      // includeDefineCustomElements: true,
     }),
   ],
 };
